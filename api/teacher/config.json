@@ -1,0 +1,7 @@
+{
+  "name": "teacher",
+  "description": "api teacher",
+  "routes": {
+    "GET /teacher": "all"
+  }
+}

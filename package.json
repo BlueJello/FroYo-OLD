@@ -1,0 +1,39 @@
+{
+  "name": "FroYoApi",
+  "version": "0.1.0",
+  "description": "FroYo =====",
+  "main": "index.js",
+  "scripts": {
+    "autotest": "supervisor -q -n exit -x make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twisternhra/FroYoApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twisternhra/FroYoApi/issues"
+  },
+  "homepage": "https://github.com/twisternhra/FroYoApi",
+  "dependencies": {
+    "koa-response-time": "~1.0.1",
+    "debug": "~0.7.4",
+    "commander": "~2.1.0",
+    "redis": "~0.10.1",
+    "koa-ratelimit": "~1.0.1",
+    "koa-logger": "~1.2.0",
+    "koa-compress": "~1.0.3",
+    "co-body": "0.0.1",
+    "koa-router": "~3.1.0",
+    "koa": "~0.5.1",
+    "thinky": "~0.2.25",
+    "rethinkdb": "~1.11.0-4"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "supertest": "*",
+    "should": "*",
+    "supervisor": "~0.5.7"
+  }
+}
