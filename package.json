@@ -8,9 +8,12 @@
     "rethinkdb": "~1.11.0-4",
     "redis": "~0.10.1",
     "thinky": "~0.2.25",
-    "primus": "~2.0.3",
-    "socksjs": "~0.4.4",
-    "sockjs": "^0.3.8"
+    "socket.io": "git://github.com/LearnBoost/socket.io",
+    "express": "^3.5.0",
+    "sails-build-dictionary": "^0.1.0",
+    "lodash": "^2.4.1",
+    "async": "^0.2.10",
+    "winston": "^0.7.2"
   },
   "devDependencies": {
     "mocha": "*",
