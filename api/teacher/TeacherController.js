@@ -8,7 +8,6 @@
 module.exports = {
   find: function(req,res){
     console.log('test');
-
   },
   create: function(req,res){
     Teacher.count().exec(function(err,count){
