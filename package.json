@@ -1,7 +1,7 @@
 {
   "name": "FroYoApi",
   "version": "0.0.0",
-  "description": "FroYo =====",
+  "description": "FroYo",
   "main": "index.js",
   "dependencies": {
     "debug": "~0.7.4",
@@ -19,10 +19,12 @@
   "devDependencies": {
     "mocha": "*",
     "should": "*",
-    "supervisor": "~0.5.7"
+    "supervisor": "*",
+    "supertest": "~0.9.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "make test",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
   },
   "repository": {
     "type": "git",
