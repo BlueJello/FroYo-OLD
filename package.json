@@ -1,0 +1,39 @@
+{
+  "name": "FroYoApi",
+  "version": "0.0.0",
+  "description": "FroYo",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "~0.7.4",
+    "rethinkdb": "~1.11.0-4",
+    "redis": "~0.10.1",
+    "thinky": "~0.2.25",
+    "socket.io": "git://github.com/LearnBoost/socket.io",
+    "express": "^3.5.0",
+    "sails-build-dictionary": "^0.1.0",
+    "lodash": "^2.4.1",
+    "async": "^0.2.10",
+    "winston": "^0.7.2",
+    "include-all": "~0.1.6"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "supervisor": "*",
+    "supertest": "~0.9.0"
+  },
+  "scripts": {
+    "test": "make test",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twisternhra/FroYoApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twisternhra/FroYoApi/issues"
+  },
+  "homepage": "https://github.com/twisternhra/FroYoApi"
+}
