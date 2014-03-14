@@ -7,6 +7,6 @@ describe('Plugin: Sockets', function(){
     });
   });
   it('should plugins.io', function(){
-    console.log(froYo);
+
   });
 });
