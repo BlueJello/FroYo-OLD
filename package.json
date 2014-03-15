@@ -14,14 +14,15 @@
     "lodash": "^2.4.1",
     "async": "^0.2.10",
     "winston": "^0.7.2",
-    "include-all": "~0.1.6"
+    "include-all": "~0.1.6",
+    "engine.io": "^1.0.4"
   },
   "devDependencies": {
     "mocha": "*",
     "should": "*",
     "supervisor": "*",
     "supertest": "*",
-    "istanbul":"*",
+    "istanbul": "*",
     "mocha-lcov-reporter": "*",
     "coveralls": "*",
     "jshint": "^2.4.4"
