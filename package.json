@@ -1,5 +1,5 @@
 {
-  "name": "FroYoApi",
+  "name": "FroYo",
   "version": "0.0.0",
   "description": "FroYo",
   "main": "index.js",
@@ -14,26 +14,34 @@
     "lodash": "^2.4.1",
     "async": "^0.2.10",
     "winston": "^0.7.2",
-    "include-all": "~0.1.6"
+    "include-all": "~0.1.6",
+    "engine.io": "^1.0.4"
   },
   "devDependencies": {
     "mocha": "*",
     "should": "*",
     "supervisor": "*",
-    "supertest": "~0.9.0"
+    "supertest": "*",
+    "istanbul": "*",
+    "mocha-lcov-reporter": "*",
+    "coveralls": "*",
+    "jshint": "^2.4.4"
+  },
+  "bin": {
+    "coveralls": "./bin/coveralls.js"
   },
   "scripts": {
     "test": "make test",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/twisternhra/FroYoApi.git"
+    "url": "git://github.com/MattAitchison/FroYo.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/twisternhra/FroYoApi/issues"
+    "url": "https://github.com/MattAitchison/FroYo/issues"
   },
-  "homepage": "https://github.com/twisternhra/FroYoApi"
+  "homepage": "https://github.com/MattAitchison/FroYo"
 }
